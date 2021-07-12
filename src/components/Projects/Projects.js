@@ -15,10 +15,13 @@ const Projects = () => (
           <Img src={image}/>
           <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
-              <Hr/>
+             
+              
           </TitleContent>
+          <Hr/>
           <CardInfo>{description}</CardInfo>
           <div>
+            <br/>
             <TitleContent>Stack</TitleContent>
             <TagList>
               {tags.map((tag, i)=> (

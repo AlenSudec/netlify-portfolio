@@ -152,3 +152,4 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+

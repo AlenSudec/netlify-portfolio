@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiAndroid } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,8 +9,7 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Ive worked with a range of technologies in the web development world.
-      From Back-end to Design
+      Through several years, I've worked on mobile applications, both for iOS and Android, tried my hand in game development with Unity 2D and Unity 3D, after which I started working on websites in MVC framework and dabbling in few noSQL and SQL databases.
     </SectionText>
     <List>
       <ListItem>
@@ -19,7 +18,7 @@ const Technologies = () =>  (
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            React.js
+            React.js, JavaScript, D3.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,17 +28,17 @@ const Technologies = () =>  (
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            Node.js and Databases
+            Node.js and SQL Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem"/>
+        <DiAndroid size="3rem"/>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Mobile development</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            tolls like Figma
+            Android Studio
           </ListParagraph>
         </ListContainer>
       </ListItem>

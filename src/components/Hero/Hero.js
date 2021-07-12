@@ -14,6 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Student trying to find work in the programming world.
       </SectionText>
+      <SectionText>btw. interactive background.</SectionText>
       <Button onClick={()=> window.location = "https://www.linkedin.com/in/alen-sudec-0805641a0/"}>Contact me</Button>
     </LeftSection>
   </Section>

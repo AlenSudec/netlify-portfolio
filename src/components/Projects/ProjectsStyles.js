@@ -13,7 +13,7 @@ grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
 column-gap: 2rem;
-row-gap: 3rem;
+row-gap: 2rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -27,14 +27,17 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    
   }
 `;
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  height: 100px;
 
 `;
 
@@ -43,7 +46,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: .5rem 0;
+  padding: 2rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
@@ -68,6 +71,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
+  height: 250px;
   padding: 0 50px;
   color: #e4e6e7;
   font-style: 2rem;
