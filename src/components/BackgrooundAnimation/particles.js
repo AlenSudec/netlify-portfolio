@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 
 var style = {
-    width: "100vw",
+    width: "100%",
     height: "100vh",
+    position: "absolute",
+    marginLeft: "auto",
+    marginRight: "auto",
 };
 
 
@@ -16,10 +19,10 @@ class ParticlesBackground extends Component {
                 params={{
                     "particles": {
                     "number": {
-                    "value": 50
+                    "value": 30
                     },
                     "size": {
-                    "value": 5
+                    "value": 1
                     }
                 },
                     "interactivity": {

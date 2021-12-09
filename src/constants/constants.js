@@ -18,23 +18,31 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'D3.js platform [In Progress]',
-    description: "As my graduate thesis in my final year of studies, I've made a web platform that uses d3.js - a JavaScript library that creates charts based on the uploaded .csv file. First version is on github, currently recreating it in React and adding backend functionality.",
+    title: 'D3.js platform',
+    description: "As my graduate thesis in my final year of studies, I've made a web platform that uses d3.js - a JavaScript library that creates charts based on the uploaded .csv file. Made with PostgreSQL, React.js as frontend and Node.js as backend. The platform gives you the ability to upload .csv files with different datasets, use that dataset as a basis to create a graphicon, which is saved and can be re-opened with a link that is provided.",
       image: '/images/3.png',
       tags: ['React', 'JavaScript', 'Node.js', 'PostgreSQL','D3.js'],
-    source: 'https://alensudec.github.io/graphd3/',
-    visit: 'https://github.com/AlenSudec/graphd3',
+      visit: 'https://github.com/AlenSudec/node-react-postrgresql',
+    
     id: 2,
   },
   {
-    title: 'Portfolio platform',
-    description: "Most recent project I've made so I can get a bit deeper into React and using animations.",
+    title: 'Portfolio website',
+    description: "Portfolio website made as an introduction to me, and what I primarily know and do. Using this project, I've learned a bit more about React.js and its framework Next.js that is primarily used for generating static website just like this one. Also using Particles.js, a lightweight JavaScript library, I learned a thing or two about handling and using animations.",
     image: '/images/4.jpg',
     tags: ['React', 'Next.js', 'Particles'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://github.com/AlenSudec/netlify-portfolio',
     id: 3,
   },
+  {
+    title: "Pandoo website",
+    description: "Website made in HTML and SCSS while I was an intership at Bamboo Lab firm. This website uses common practices in SCSS to develop a website from scratch to match the given design provided in Figma tool.",
+    image: "/images/pandoo.png",
+    tags: ["HTML", "CSS", "SCSS"],
+    visit: 'https://github.com/AlenSudec/BambooProjectOne',
+    id: 4,
+  },
+
 ];
 
 export const TimeLineData = [
@@ -42,5 +50,6 @@ export const TimeLineData = [
   { year: 2017, text: 'Trying to learn programming', },
   { year: 2018, text: 'Finished my first mobile app', },
   { year: 2020, text: 'Getting more projects done', },
-  { year: 2021, text: 'Finished studies and hopefully starting to work as a programmer', },
+  { year: 2021, text: 'Finished studies', },
+  { year: 2021, text: 'Finished 2 months of internship as a Frontend dev @ Bamboo Lab'}
 ];

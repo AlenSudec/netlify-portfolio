@@ -37,8 +37,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-  height: 100px;
-
+  height: 80px;
 `;
 
 
@@ -47,9 +46,9 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: 2rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: 3rem;
 `;
-
+// ${(props) => props.title ? '3rem' : '2rem'};
 export const Hr = styled.hr`
   width: 50px;
   height: 3px;
@@ -71,7 +70,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  height: 250px;
+  height: 290px;
   padding: 0 50px;
   color: #e4e6e7;
   font-style: 2rem;

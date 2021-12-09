@@ -4,6 +4,11 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
+
+var style = {
+  fontSize: "14px",
+};
+
 const Footer = () => {
   return (
    <FooterWrapper>
@@ -33,6 +38,7 @@ const Footer = () => {
           </SocialIcons>
         </SocialContainer>
      </SocialIconsContainer>
+      <Slogan style={style}>Updated on: 09/12/2021</Slogan>
    </FooterWrapper>
   );
 };

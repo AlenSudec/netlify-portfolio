@@ -4,6 +4,11 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
+var style = {
+  width: "100%",
+  marginLeft: "10px",
+  marginRight: "10px",
+};
 
 const Projects = () => (
  <Section nopadding  id="projects">
@@ -14,7 +19,7 @@ const Projects = () => (
         <BlogCard key={id}>
           <Img src={image}/>
           <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
+              <HeaderThree>{title}</HeaderThree>
              
               
           </TitleContent>
@@ -30,8 +35,11 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Code</ExternalLinks>
-            <ExternalLinks href={source}>Source</ExternalLinks>
+              { visit != null ? (
+                source !=null ? (<ExternalLinks href={visit}>Code</ExternalLinks>) : (<ExternalLinks href={visit} style={style}>Code</ExternalLinks>)
+                                ) : (null) }
+              { source != null ? ( visit != null ? (<ExternalLinks href={source}>Source</ExternalLinks>) : (<ExternalLinks href={source} style={style}>Source</ExternalLinks>)
+                                ) : (null) }
           </UtilityList>
         </BlogCard>
       ))}  

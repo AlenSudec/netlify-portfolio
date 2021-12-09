@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Through several years, I've worked on mobile applications, both for iOS and Android, tried my hand in game development with Unity 2D and Unity 3D, after which I started working on websites in MVC framework and dabbling in few noSQL and SQL databases.
+      Through several years, I've worked on mobile applications, both for iOS and Android, tried my hand in game development with Unity 2D and Unity 3D, after which I started working on websites in MVC framework and dabbling in few noSQL and SQL databases. After which I decided to primarily focus on Front-end technologies, and finished Frontend internship. The internship focused around using HTML and SCSS to properly build and style a website. As my final project, I've used Embedded Ruby, a templating system, and SCSS to properly structurize and style the website.
     </SectionText>
     <List>
       <ListItem>
@@ -18,7 +18,7 @@ const Technologies = () =>  (
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            React.js, JavaScript, D3.js
+            SaSS, SCSS, React.js, Vue.js, JavaScript, D3.js, Ejs and Erb
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            Node.js and SQL Databases
+            Node.js, SQL and noSQL Databases (PostgreSQL, SQLite, MongoDB)
           </ListParagraph>
         </ListContainer>
       </ListItem>
