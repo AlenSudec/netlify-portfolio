@@ -40,6 +40,7 @@ export const projects = [
     image: "/images/pandoo.png",
     tags: ["HTML", "CSS", "SCSS"],
     visit: 'https://github.com/AlenSudec/BambooProjectOne',
+    source: "http://pandoo1.netlify.app",
     id: 4,
   },
 
