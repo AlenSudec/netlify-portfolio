@@ -9,4 +9,4 @@
 
 
 Site hosted on netlify. 
-## [Portfolio](http://alensudec.netlify.app)
+## [Checkout my portfolio here!](http://alensudec.netlify.app)
