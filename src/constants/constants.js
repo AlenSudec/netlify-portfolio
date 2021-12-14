@@ -43,6 +43,15 @@ export const projects = [
     source: "http://pandoo1.netlify.app",
     id: 4,
   },
+  {
+    title: "Dugomat",
+    description: "Website app used for tracking who you lend your money to, when do they need to return the money, and for what reason they borrowed money. App was made using JS framework Vue, with Firebase API for database and authentication.",
+    image: "/images/background.png",
+    tags: ["Vue.js, SCSS, Firebase Database, Firebase Auth"],
+    visit: "https://github.com/AlenSudec/dugomat",
+    source: "", //https://dugomat.netlify.app/
+    id: 5,
+  },
 
 ];
 
