@@ -1,7 +1,7 @@
 # Portfolio 
 ## Made using React.js and Next.js
 ### How to run
-- Run 'npm i'
+- Run 'npm install'
 - To start the app, use 'npm run dev'
 
 ### Updated: 14/12/2021  
