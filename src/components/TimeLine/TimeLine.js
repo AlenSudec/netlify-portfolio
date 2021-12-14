@@ -50,7 +50,7 @@ const Timeline = () => {
       <SectionText>
         Master's degree from the Faculty of Economics in Osijek, majoring in business informatics, looking for work in IT industry as a Frontend developer.
       </SectionText>
-      <Button onClick={()=> window.location = "myCV.pdf"}>Biography</Button>
+      <Button onClick={()=> window.location = "biography.pdf"}>Biography</Button>
       <SectionText>
       
       </SectionText>
